@@ -1,0 +1,1 @@
+import Card from '../../../components/Card'; export default function Provider(){ return (<div className='min-h-screen bg-gray-50 p-8'><div className='max-w-5xl mx-auto'><h2 className='text-2xl font-semibold'>Provider Dashboard</h2><Card title='Courses'><ul><li>Course A — 12 enrollments</li></ul></Card></div></div>) }

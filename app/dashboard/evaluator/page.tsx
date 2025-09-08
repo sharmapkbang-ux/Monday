@@ -1,0 +1,1 @@
+import Card from '../../../components/Card'; export default function Evaluator(){ return (<div className='min-h-screen bg-gray-50 p-8'><div className='max-w-6xl mx-auto'><h2 className='text-2xl font-semibold'>Evaluator Dashboard</h2><Card title='Pending Reviews'><ul><li>Review A101 — Demo Learner</li></ul></Card></div></div>) }

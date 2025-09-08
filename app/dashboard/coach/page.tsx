@@ -1,0 +1,1 @@
+import Card from '../../../components/Card'; export default function Coach(){ return (<div className='min-h-screen bg-gray-50 p-8'><div className='max-w-5xl mx-auto'><h2 className='text-2xl font-semibold'>Coach Dashboard</h2><div className='mt-4'><Card title='Assigned Learners'><ul><li>Demo Learner — 72%</li></ul></Card></div></div></div>) }

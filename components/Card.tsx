@@ -1,0 +1,1 @@
+export default function Card({children, title}:{children:any,title?:string}){ return (<div className='bg-white rounded-2xl p-4 shadow'>{title && <h3 className='font-semibold mb-2'>{title}</h3>}{children}</div>); }

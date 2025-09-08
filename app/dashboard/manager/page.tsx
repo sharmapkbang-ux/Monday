@@ -1,0 +1,1 @@
+import Card from '../../../components/Card'; export default function Manager(){ return (<div className='min-h-screen bg-gray-50 p-8'><div className='max-w-6xl mx-auto'><h2 className='text-2xl font-semibold'>Manager Dashboard</h2><Card title='Cohort Metrics'><p>Avg readiness: 68%</p></Card></div></div>) }

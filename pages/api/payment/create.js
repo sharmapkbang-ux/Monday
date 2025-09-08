@@ -1,0 +1,1 @@
+export default async function handler(req,res){ if(req.method!=='POST') return res.status(405).end(); if(!process.env.STRIPE_SECRET_KEY) return res.json({ ok:false, message:'Demo mode - payment disabled' }); return res.json({ ok:true, message:'Stripe placeholder' }); }
